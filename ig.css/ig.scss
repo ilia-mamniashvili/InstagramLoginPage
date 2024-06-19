@@ -1,0 +1,117 @@
+*{
+    margin: 0 auto ;
+}
+body{
+    background-color: #fafafa;
+    overflow-y:scroll;
+}
+.header{
+    border: 1px #dbdbdb solid;
+    text-align: center;
+    margin: 26.2vh auto ;
+
+     background-color: white;
+    max-width: 348px;
+    width: 100%;
+    height: 337px;
+  
+    
+
+
+    
+  
+    &__title{
+        color: red;
+        padding-top: 8px;
+       
+       
+    }
+    &__img{
+        margin-top: -5px;
+        cursor: pointer;
+      
+    }
+    &__login{
+        margin-top: 24px;
+        max-width: 239px;
+        border: 1px solid #0095f6;
+        background: #0095f6;
+        border-radius: 4px;
+        text-align: center;
+        padding: 5px;
+        line-height: 18px;
+        color: white;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+        // font-weight: 800;
+        // letter-spacing: 1px;
+    }
+    &__sign-in{
+        // font-size: 13.5px;
+        font-size: 13px;
+        margin-top: 30px;
+        text-decoration: none;
+        // font-family: 'Ubuntu', sans-serif;
+        // font-family: 'Mukta', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+    }
+}
+
+.footer{
+   
+    align-items: center;
+    color: #c6c6c6;
+    height: 40px;
+    height: 100%;
+margin-top: 266px;
+    text-align: center;
+    word-spacing: 12px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    &__language{
+        line-height: 28px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .header{
+        text-align: center;
+    margin: 26.2vh auto ;
+
+     background-color: #fafafa;
+    max-width: 343px;
+    width: 100%;
+    height: 337px;
+    border: none;
+    &__title{
+        padding-top: 4px;
+    }
+    }
+    .footer{
+        line-height: 25px;
+      margin:-40px 25px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .header{
+        margin-top: 25.1vh;
+    }
+    .footer{
+        line-height: 23px;
+        // margin-top: 290px ;
+        margin: -5px 45px ;
+        &__language{
+            line-height: 0px;
+        }
+    }
+}
+@media only screen and(max-width: 1025px){
+    .header__login{
+        width: 238px;
+    }
+}
